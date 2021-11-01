@@ -1,0 +1,15 @@
+[project]
+name = "ico"
+requirements = []
+costs_version = 1
+[contracts.ico]
+path = "contracts/ico.clar"
+depends_on = []
+
+[contracts.sip-010-ft]
+path = "contracts/sip-010-ft.clar"
+depends_on = ["sip-010-ft-trait"]
+
+[contracts.sip-010-ft-trait]
+path = "contracts/sip-010-ft-trait.clar"
+depends_on = []
